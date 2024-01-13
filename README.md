@@ -6,7 +6,7 @@ Welcome to the DynamoRevitAppliedToMEP repository! This repository contains code
 
 ## Course Content
 
-The course, available on [YouTube](YOUR_YOUTUBE_LINK), covers various aspects of using Dynamo for Revit in the context of MEP. From automating repetitive tasks to enhancing your workflow, this course aims to empower you with practical skills to streamline your MEP design processes.
+The course, available on [YouTube](https://www.youtube.com/watch?v=ZKwySr2RPJA&list=PLVzXileDtqyD8c87M_LNtkjNseqSaTU3j), covers various aspects of using Dynamo for Revit in the context of MEP. From automating repetitive tasks to enhancing your workflow, this course aims to empower you with practical skills to streamline your MEP design processes.
 
 ## Contact Information
 
