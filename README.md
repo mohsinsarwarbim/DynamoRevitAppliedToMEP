@@ -24,10 +24,6 @@ To get started with the course content and examples in this repository, follow t
 
 3. Refer to the documentation within each folder for detailed instructions.
 
-## Contributing
-
-If you find issues or have suggestions for improvements, feel free to open a GitHub issue or submit a pull request. Contributions are welcome!
-
 ## License
 
 This project is dedicated to the public domain. You can do whatever you want with it!
