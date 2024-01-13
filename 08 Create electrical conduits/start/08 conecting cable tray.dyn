@@ -1,0 +1,66 @@
+{
+  "Uuid": "3cfcfaf5-dc8c-4b4a-bda0-cd05b21d3d14",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "08 conecting cable tray",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -3.1023507118225098,
+      "EyeY": 27.336713790893555,
+      "EyeZ": 8.8130893707275391,
+      "LookX": -0.75993871688842773,
+      "LookY": -26.222646713256836,
+      "LookZ": -8.4967269897460938,
+      "UpX": -0.076833784580230713,
+      "UpY": 0.50603306293487549,
+      "UpZ": -0.859084963798523
+    },
+    "NodeViews": [],
+    "Annotations": [],
+    "X": -1048.4213060422926,
+    "Y": 185.82979703206502,
+    "Zoom": 0.29610048428134583
+  }
+}

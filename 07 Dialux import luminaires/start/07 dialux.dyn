@@ -1,0 +1,66 @@
+{
+  "Uuid": "7eab3890-2740-4b98-9004-c8eb83692aa7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "07 dialux",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -5.2123022079467773,
+      "EyeY": 71.20916748046875,
+      "EyeZ": -0.801790714263916,
+      "LookX": 0.21230220794677734,
+      "LookY": -60.20916748046875,
+      "LookZ": -7.198209285736084,
+      "UpX": 0.027840921655297279,
+      "UpY": 0.32886698842048645,
+      "UpZ": -0.94396579265594482
+    },
+    "NodeViews": [],
+    "Annotations": [],
+    "X": 90.163522528494525,
+    "Y": 46.430086506939332,
+    "Zoom": 0.40519045683781235
+  }
+}

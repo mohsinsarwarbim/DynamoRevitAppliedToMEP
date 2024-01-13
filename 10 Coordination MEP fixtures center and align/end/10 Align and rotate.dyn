@@ -1,0 +1,203 @@
+{
+  "Uuid": "71534970-4e85-4591-a721-e5c3348c2502",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "10 Align and rotate",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Revit.Elements.FamilyInstance": {
+        "Key": "Revit.Elements.FamilyInstance",
+        "Value": "RevitNodes.dll"
+      }
+    }
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Nodes.DSModelElementSelection, DSRevitNodesUI",
+      "NodeType": "ExtensionNode",
+      "InstanceId": [
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056923"
+      ],
+      "Id": "edd7df4168f940f2aa4360bb036831b2",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "d0d08d75b4654eb89932cc76fea83072",
+          "Name": "Element",
+          "Description": "Los elementos seleccionados",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
+      "FunctionSignature": "e76f15fb-9422-4fef-a250-970ba70e19d0",
+      "FunctionType": "Graph",
+      "NodeType": "FunctionNode",
+      "Id": "6c1f9f17ee3e46a599a662c48a5493c8",
+      "Inputs": [
+        {
+          "Id": "68b390f998944cfab72b3c8741f65760",
+          "Name": "familyInstance",
+          "Description": "FamilyInstance",
+          "UsingDefaultValue": false,
+          "Level": 1,
+          "UseLevels": true,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "50250a0e429d4cb680783a09f7c04d92",
+          "Name": "FamilyInstance",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": ""
+    },
+    {
+      "ConcreteType": "Dynamo.Nodes.DSModelElementsSelection, DSRevitNodesUI",
+      "NodeType": "ExtensionNode",
+      "InstanceId": [
+        "a8cb77e4-5c33-4430-820c-6371ea29b8fd-00056127",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056861",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056888",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-000568c3",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056920",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056921",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056922",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056923",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056989",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-0005698a",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-0005698b",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-0005698c",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056994",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056995",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056996",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-00056997",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-0005699f",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-000569a0",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-000569a1",
+        "e67474bd-d28f-4546-9ffd-d7d5f9ace3ad-000569a2"
+      ],
+      "Id": "59821f0efcce45f1b21483b061f439b5",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "8ffa02b496ae4ac5baab518dabc57446",
+          "Name": "Elements",
+          "Description": "The selected elements.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "8ffa02b496ae4ac5baab518dabc57446",
+      "End": "68b390f998944cfab72b3c8741f65760",
+      "Id": "49cec3eb1977438c8555bdbda71ba80a"
+    }
+  ],
+  "Dependencies": [
+    "e76f15fb-9422-4fef-a250-970ba70e19d0"
+  ],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -10.68095874786377,
+      "EyeY": 8.6032304763793945,
+      "EyeZ": 18.298877716064453,
+      "LookX": 5.70947790145874,
+      "LookY": -11.804330825805664,
+      "LookZ": -21.473852157592773,
+      "UpX": 0.069099761545658112,
+      "UpY": 0.96316266059875488,
+      "UpZ": -0.2598903477191925
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Select Model Element",
+        "Id": "edd7df4168f940f2aa4360bb036831b2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -956.3968096837217,
+        "Y": 746.38740878834369
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "center_and_align_mep_fixtures",
+        "Id": "6c1f9f17ee3e46a599a662c48a5493c8",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -660.23022301230753,
+        "Y": 931.18553442826249
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Select Model Elements",
+        "Id": "59821f0efcce45f1b21483b061f439b5",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -987.05311594900047,
+        "Y": 927.501697524789
+      }
+    ],
+    "Annotations": [],
+    "X": 1179.9590241491417,
+    "Y": -492.33128689829243,
+    "Zoom": 0.92067894773364545
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Uuid": "0f1b1e73-41f1-4a8f-b4c9-453d309a5496",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "05 placing emerzency lighting for each single door",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "Ninguno",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Vista preliminar en segundo plano",
+      "EyeX": 39.265945434570313,
+      "EyeY": 21.906932830810547,
+      "EyeZ": -3.9815349578857422,
+      "LookX": -19.645915985107422,
+      "LookY": -21.985982894897461,
+      "LookZ": -21.887422561645508,
+      "UpX": -0.2759416401386261,
+      "UpY": 0.91068351268768311,
+      "UpZ": -0.30742791295051575
+    },
+    "NodeViews": [],
+    "Annotations": [],
+    "X": 58.765686628170215,
+    "Y": 205.26384584925032,
+    "Zoom": 0.14037367082180005
+  }
+}

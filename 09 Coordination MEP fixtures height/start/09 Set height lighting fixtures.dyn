@@ -1,0 +1,66 @@
+{
+  "Uuid": "71534970-4e85-4591-a721-e5c3348c2502",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "09 Set height lighting fixtures",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -11.796680450439453,
+      "EyeY": 15.373386383056641,
+      "EyeZ": 26.046974182128906,
+      "LookX": 6.7966804504394531,
+      "LookY": -4.3733863830566406,
+      "LookZ": -34.046974182128906,
+      "UpX": -0.01774255745112896,
+      "UpY": 0.9958844780921936,
+      "UpZ": 0.08887869119644165
+    },
+    "NodeViews": [],
+    "Annotations": [],
+    "X": 575.80943660976459,
+    "Y": 223.02556397235378,
+    "Zoom": 0.12299669698665774
+  }
+}

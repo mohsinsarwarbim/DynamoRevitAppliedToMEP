@@ -1,0 +1,71 @@
+{
+  "Uuid": "71534970-4e85-4591-a721-e5c3348c2502",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "10 Align and rotate",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Revit.Elements.FamilyInstance": {
+        "Key": "Revit.Elements.FamilyInstance",
+        "Value": "RevitNodes.dll"
+      }
+    }
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -10.68095874786377,
+      "EyeY": 8.6032304763793945,
+      "EyeZ": 18.298877716064453,
+      "LookX": 5.70947790145874,
+      "LookY": -11.804330825805664,
+      "LookZ": -21.473852157592773,
+      "UpX": 0.069099761545658112,
+      "UpY": 0.96316266059875488,
+      "UpZ": -0.2598903477191925
+    },
+    "NodeViews": [],
+    "Annotations": [],
+    "X": 901.61630500517686,
+    "Y": -282.71676140702721,
+    "Zoom": 0.65058417950885017
+  }
+}
