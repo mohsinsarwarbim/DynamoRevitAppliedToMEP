@@ -10,9 +10,9 @@ The course, available on [YouTube](https://www.youtube.com/watch?v=ZKwySr2RPJA&l
 
 ## Contact Information
 
-**Instructor:** [Mohsin Sarwar]
+**Instructor:** Mohsin Sarwar
 - LinkedIn: [Mohsin Sarwar](https://www.linkedin.com/in/sarwarmohsin/)
-- Email: [sm.mohsinsarwar@gmail.com]
+- Email: sm.mohsinsarwar@gmail.com
 
 ## Getting Started
 
